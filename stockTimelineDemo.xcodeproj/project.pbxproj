@@ -13,6 +13,43 @@
 		1DF07A7E1EC1989500EF3F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF07A7C1EC1989500EF3F29 /* Main.storyboard */; };
 		1DF07A801EC1989500EF3F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF07A7F1EC1989500EF3F29 /* Assets.xcassets */; };
 		1DF07A831EC1989500EF3F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF07A811EC1989500EF3F29 /* LaunchScreen.storyboard */; };
+		1DF07A901EC19A1500EF3F29 /* HYStockChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07A8F1EC19A1500EF3F29 /* HYStockChartView.m */; };
+		1DF07A931EC19A8100EF3F29 /* HYStockChartConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07A921EC19A8100EF3F29 /* HYStockChartConstant.m */; };
+		1DF07A961EC19B1F00EF3F29 /* timelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07A951EC19B1F00EF3F29 /* timelineViewController.m */; };
+		1DF07A991EC19CDA00EF3F29 /* HYStockChartProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07A981EC19CDA00EF3F29 /* HYStockChartProfileModel.m */; };
+		1DF07A9C1EC19D1C00EF3F29 /* HYStockChartGloablVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07A9B1EC19D1C00EF3F29 /* HYStockChartGloablVariable.m */; };
+		1DF07A9E1EC19F3F00EF3F29 /* TimeLine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DF07A9D1EC19F3F00EF3F29 /* TimeLine.plist */; };
+		1DF07AA11EC19F9500EF3F29 /* JMSGroupTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AA01EC19F9500EF3F29 /* JMSGroupTimeLineModel.m */; };
+		1DF07AA41EC19FE000EF3F29 /* JMSTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AA31EC19FE000EF3F29 /* JMSTimeLineModel.m */; };
+		1DF07AB71EC1A24900EF3F29 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AA71EC1A24900EF3F29 /* MJConst.m */; };
+		1DF07AB81EC1A24900EF3F29 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AAA1EC1A24900EF3F29 /* MJFoundation.m */; };
+		1DF07AB91EC1A24900EF3F29 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AAC1EC1A24900EF3F29 /* MJProperty.m */; };
+		1DF07ABA1EC1A24900EF3F29 /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AAE1EC1A24900EF3F29 /* MJType.m */; };
+		1DF07ABB1EC1A24900EF3F29 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AB01EC1A24900EF3F29 /* NSObject+MJCoding.m */; };
+		1DF07ABC1EC1A24900EF3F29 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AB21EC1A24900EF3F29 /* NSObject+MJKeyValue.m */; };
+		1DF07ABD1EC1A24900EF3F29 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AB41EC1A24900EF3F29 /* NSObject+MJProperty.m */; };
+		1DF07ABE1EC1A24900EF3F29 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AB61EC1A24900EF3F29 /* NSString+MJExtension.m */; };
+		1DF07AC11EC1A37700EF3F29 /* HYTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AC01EC1A37700EF3F29 /* HYTimeLineModel.m */; };
+		1DF07AC41EC1A3F000EF3F29 /* HYTimeLineGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AC31EC1A3F000EF3F29 /* HYTimeLineGroupModel.m */; };
+		1DF07AC71EC1A56200EF3F29 /* HYTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AC61EC1A56200EF3F29 /* HYTimeLineView.m */; };
+		1DF07AE21EC1A69500EF3F29 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07ACA1EC1A69500EF3F29 /* MASCompositeConstraint.m */; };
+		1DF07AE31EC1A69500EF3F29 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07ACC1EC1A69500EF3F29 /* MASConstraint.m */; };
+		1DF07AE41EC1A69500EF3F29 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07ACF1EC1A69500EF3F29 /* MASConstraintMaker.m */; };
+		1DF07AE51EC1A69500EF3F29 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AD11EC1A69500EF3F29 /* MASLayoutConstraint.m */; };
+		1DF07AE61EC1A69500EF3F29 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AD51EC1A69500EF3F29 /* MASViewAttribute.m */; };
+		1DF07AE71EC1A69500EF3F29 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AD71EC1A69500EF3F29 /* MASViewConstraint.m */; };
+		1DF07AE81EC1A69500EF3F29 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AD91EC1A69500EF3F29 /* NSArray+MASAdditions.m */; };
+		1DF07AE91EC1A69500EF3F29 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07ADC1EC1A69500EF3F29 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		1DF07AEA1EC1A69500EF3F29 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07ADE1EC1A69500EF3F29 /* View+MASAdditions.m */; };
+		1DF07AEB1EC1A69500EF3F29 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AE11EC1A69500EF3F29 /* ViewController+MASAdditions.m */; };
+		1DF07AF11EC1A8D600EF3F29 /* HYTimeLineAboveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AF01EC1A8D600EF3F29 /* HYTimeLineAboveView.m */; };
+		1DF07AF91EC1A9A700EF3F29 /* HYTimeLineAbovePositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AF61EC1A9A700EF3F29 /* HYTimeLineAbovePositionModel.m */; };
+		1DF07AFD1EC1A9FD00EF3F29 /* HYTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AFC1EC1A9FD00EF3F29 /* HYTimeLine.m */; };
+		1DF07B001EC1AA4000EF3F29 /* UIColor+HYStockChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07AFF1EC1AA4000EF3F29 /* UIColor+HYStockChart.m */; };
+		1DF07B031EC1AAAB00EF3F29 /* NSDateFormatter+HYStockChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07B021EC1AAAB00EF3F29 /* NSDateFormatter+HYStockChart.m */; };
+		1DF07B061EC1AACF00EF3F29 /* UIView+HXCircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07B051EC1AACF00EF3F29 /* UIView+HXCircleAnimation.m */; };
+		1DF07B091EC1AAF100EF3F29 /* YYTimeLineMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07B081EC1AAF100EF3F29 /* YYTimeLineMaskView.m */; };
+		1DF07B151EC1B00000EF3F29 /* UIFont+HYStockChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF07B141EC1B00000EF3F29 /* UIFont+HYStockChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +63,87 @@
 		1DF07A7F1EC1989500EF3F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF07A821EC1989500EF3F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DF07A841EC1989500EF3F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF07A8A1EC1995D00EF3F29 /* HYStockChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYStockChartViewController.h; sourceTree = "<group>"; };
+		1DF07A8B1EC1995D00EF3F29 /* HYStockChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYStockChartViewController.m; sourceTree = "<group>"; };
+		1DF07A8E1EC19A1500EF3F29 /* HYStockChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYStockChartView.h; path = HYStockChart/HYStockChartView.h; sourceTree = "<group>"; };
+		1DF07A8F1EC19A1500EF3F29 /* HYStockChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYStockChartView.m; path = HYStockChart/HYStockChartView.m; sourceTree = "<group>"; };
+		1DF07A911EC19A8100EF3F29 /* HYStockChartConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYStockChartConstant.h; path = HYStockChart/HYStockChartConstant.h; sourceTree = "<group>"; };
+		1DF07A921EC19A8100EF3F29 /* HYStockChartConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYStockChartConstant.m; path = HYStockChart/HYStockChartConstant.m; sourceTree = "<group>"; };
+		1DF07A941EC19B1F00EF3F29 /* timelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timelineViewController.h; sourceTree = "<group>"; };
+		1DF07A951EC19B1F00EF3F29 /* timelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timelineViewController.m; sourceTree = "<group>"; };
+		1DF07A971EC19CDA00EF3F29 /* HYStockChartProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYStockChartProfileModel.h; path = HYStockChart/HYStockChartProfileModel.h; sourceTree = "<group>"; };
+		1DF07A981EC19CDA00EF3F29 /* HYStockChartProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYStockChartProfileModel.m; path = HYStockChart/HYStockChartProfileModel.m; sourceTree = "<group>"; };
+		1DF07A9A1EC19D1C00EF3F29 /* HYStockChartGloablVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYStockChartGloablVariable.h; path = HYStockChart/HYStockChartGloablVariable.h; sourceTree = "<group>"; };
+		1DF07A9B1EC19D1C00EF3F29 /* HYStockChartGloablVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYStockChartGloablVariable.m; path = HYStockChart/HYStockChartGloablVariable.m; sourceTree = "<group>"; };
+		1DF07A9D1EC19F3F00EF3F29 /* TimeLine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TimeLine.plist; path = HYStockChart/TimeLine.plist; sourceTree = "<group>"; };
+		1DF07A9F1EC19F9500EF3F29 /* JMSGroupTimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMSGroupTimeLineModel.h; path = HYStockChart/JMSGroupTimeLineModel.h; sourceTree = "<group>"; };
+		1DF07AA01EC19F9500EF3F29 /* JMSGroupTimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMSGroupTimeLineModel.m; path = HYStockChart/JMSGroupTimeLineModel.m; sourceTree = "<group>"; };
+		1DF07AA21EC19FE000EF3F29 /* JMSTimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMSTimeLineModel.h; path = HYStockChart/JMSTimeLineModel.h; sourceTree = "<group>"; };
+		1DF07AA31EC19FE000EF3F29 /* JMSTimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMSTimeLineModel.m; path = HYStockChart/JMSTimeLineModel.m; sourceTree = "<group>"; };
+		1DF07AA61EC1A24900EF3F29 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJConst.h; path = MJExtension/MJConst.h; sourceTree = "<group>"; };
+		1DF07AA71EC1A24900EF3F29 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJConst.m; path = MJExtension/MJConst.m; sourceTree = "<group>"; };
+		1DF07AA81EC1A24900EF3F29 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		1DF07AA91EC1A24900EF3F29 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		1DF07AAA1EC1A24900EF3F29 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		1DF07AAB1EC1A24900EF3F29 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		1DF07AAC1EC1A24900EF3F29 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		1DF07AAD1EC1A24900EF3F29 /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJType.h; path = MJExtension/MJType.h; sourceTree = "<group>"; };
+		1DF07AAE1EC1A24900EF3F29 /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJType.m; path = MJExtension/MJType.m; sourceTree = "<group>"; };
+		1DF07AAF1EC1A24900EF3F29 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		1DF07AB01EC1A24900EF3F29 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		1DF07AB11EC1A24900EF3F29 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		1DF07AB21EC1A24900EF3F29 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		1DF07AB31EC1A24900EF3F29 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		1DF07AB41EC1A24900EF3F29 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		1DF07AB51EC1A24900EF3F29 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		1DF07AB61EC1A24900EF3F29 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		1DF07ABF1EC1A37700EF3F29 /* HYTimeLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYTimeLineModel.h; path = HYStockChart/HYTimeLineModel.h; sourceTree = "<group>"; };
+		1DF07AC01EC1A37700EF3F29 /* HYTimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYTimeLineModel.m; path = HYStockChart/HYTimeLineModel.m; sourceTree = "<group>"; };
+		1DF07AC21EC1A3F000EF3F29 /* HYTimeLineGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYTimeLineGroupModel.h; path = HYStockChart/HYTimeLineGroupModel.h; sourceTree = "<group>"; };
+		1DF07AC31EC1A3F000EF3F29 /* HYTimeLineGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYTimeLineGroupModel.m; path = HYStockChart/HYTimeLineGroupModel.m; sourceTree = "<group>"; };
+		1DF07AC51EC1A56200EF3F29 /* HYTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYTimeLineView.h; path = HYStockChart/HYTimeLineView.h; sourceTree = "<group>"; };
+		1DF07AC61EC1A56200EF3F29 /* HYTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYTimeLineView.m; path = HYStockChart/HYTimeLineView.m; sourceTree = "<group>"; };
+		1DF07AC91EC1A69500EF3F29 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		1DF07ACA1EC1A69500EF3F29 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		1DF07ACB1EC1A69500EF3F29 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		1DF07ACC1EC1A69500EF3F29 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1DF07ACD1EC1A69500EF3F29 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		1DF07ACE1EC1A69500EF3F29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		1DF07ACF1EC1A69500EF3F29 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		1DF07AD01EC1A69500EF3F29 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		1DF07AD11EC1A69500EF3F29 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		1DF07AD21EC1A69500EF3F29 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry/Masonry.h; sourceTree = "<group>"; };
+		1DF07AD31EC1A69500EF3F29 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		1DF07AD41EC1A69500EF3F29 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		1DF07AD51EC1A69500EF3F29 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		1DF07AD61EC1A69500EF3F29 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1DF07AD71EC1A69500EF3F29 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		1DF07AD81EC1A69500EF3F29 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		1DF07AD91EC1A69500EF3F29 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		1DF07ADA1EC1A69500EF3F29 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		1DF07ADB1EC1A69500EF3F29 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		1DF07ADC1EC1A69500EF3F29 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		1DF07ADD1EC1A69500EF3F29 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		1DF07ADE1EC1A69500EF3F29 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		1DF07ADF1EC1A69500EF3F29 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		1DF07AE01EC1A69500EF3F29 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		1DF07AE11EC1A69500EF3F29 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		1DF07AEF1EC1A8D600EF3F29 /* HYTimeLineAboveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYTimeLineAboveView.h; path = HYStockChart/HYTimeLineAboveView.h; sourceTree = "<group>"; };
+		1DF07AF01EC1A8D600EF3F29 /* HYTimeLineAboveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYTimeLineAboveView.m; path = HYStockChart/HYTimeLineAboveView.m; sourceTree = "<group>"; };
+		1DF07AF51EC1A9A700EF3F29 /* HYTimeLineAbovePositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYTimeLineAbovePositionModel.h; path = HYStockChart/HYTimeLineAbovePositionModel.h; sourceTree = "<group>"; };
+		1DF07AF61EC1A9A700EF3F29 /* HYTimeLineAbovePositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYTimeLineAbovePositionModel.m; path = HYStockChart/HYTimeLineAbovePositionModel.m; sourceTree = "<group>"; };
+		1DF07AFB1EC1A9FD00EF3F29 /* HYTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYTimeLine.h; path = HYStockChart/HYTimeLine.h; sourceTree = "<group>"; };
+		1DF07AFC1EC1A9FD00EF3F29 /* HYTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYTimeLine.m; path = HYStockChart/HYTimeLine.m; sourceTree = "<group>"; };
+		1DF07AFE1EC1AA4000EF3F29 /* UIColor+HYStockChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HYStockChart.h"; path = "HYStockChart/UIColor+HYStockChart.h"; sourceTree = "<group>"; };
+		1DF07AFF1EC1AA4000EF3F29 /* UIColor+HYStockChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HYStockChart.m"; path = "HYStockChart/UIColor+HYStockChart.m"; sourceTree = "<group>"; };
+		1DF07B011EC1AAAB00EF3F29 /* NSDateFormatter+HYStockChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+HYStockChart.h"; path = "HYStockChart/NSDateFormatter+HYStockChart.h"; sourceTree = "<group>"; };
+		1DF07B021EC1AAAB00EF3F29 /* NSDateFormatter+HYStockChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+HYStockChart.m"; path = "HYStockChart/NSDateFormatter+HYStockChart.m"; sourceTree = "<group>"; };
+		1DF07B041EC1AACF00EF3F29 /* UIView+HXCircleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HXCircleAnimation.h"; path = "HYStockChart/UIView+HXCircleAnimation.h"; sourceTree = "<group>"; };
+		1DF07B051EC1AACF00EF3F29 /* UIView+HXCircleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+HXCircleAnimation.m"; path = "HYStockChart/UIView+HXCircleAnimation.m"; sourceTree = "<group>"; };
+		1DF07B071EC1AAF100EF3F29 /* YYTimeLineMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YYTimeLineMaskView.h; path = HYStockChart/YYTimeLineMaskView.h; sourceTree = "<group>"; };
+		1DF07B081EC1AAF100EF3F29 /* YYTimeLineMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YYTimeLineMaskView.m; path = HYStockChart/YYTimeLineMaskView.m; sourceTree = "<group>"; };
+		1DF07B131EC1B00000EF3F29 /* UIFont+HYStockChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+HYStockChart.h"; path = "HYStockChart/UIFont+HYStockChart.h"; sourceTree = "<group>"; };
+		1DF07B141EC1B00000EF3F29 /* UIFont+HYStockChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+HYStockChart.m"; path = "HYStockChart/UIFont+HYStockChart.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +176,9 @@
 		1DF07A721EC1989500EF3F29 /* stockTimelineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1DF07A8D1EC199FD00EF3F29 /* HYStockChart */,
+				1DF07A8A1EC1995D00EF3F29 /* HYStockChartViewController.h */,
+				1DF07A8B1EC1995D00EF3F29 /* HYStockChartViewController.m */,
 				1DF07A761EC1989500EF3F29 /* AppDelegate.h */,
 				1DF07A771EC1989500EF3F29 /* AppDelegate.m */,
 				1DF07A791EC1989500EF3F29 /* ViewController.h */,
@@ -67,6 +188,11 @@
 				1DF07A811EC1989500EF3F29 /* LaunchScreen.storyboard */,
 				1DF07A841EC1989500EF3F29 /* Info.plist */,
 				1DF07A731EC1989500EF3F29 /* Supporting Files */,
+				1DF07A941EC19B1F00EF3F29 /* timelineViewController.h */,
+				1DF07A951EC19B1F00EF3F29 /* timelineViewController.m */,
+				1DF07A9D1EC19F3F00EF3F29 /* TimeLine.plist */,
+				1DF07AA51EC1A23700EF3F29 /* MJExtension */,
+				1DF07AC81EC1A68400EF3F29 /* Masonry */,
 			);
 			path = stockTimelineDemo;
 			sourceTree = "<group>";
@@ -77,6 +203,103 @@
 				1DF07A741EC1989500EF3F29 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DF07A8D1EC199FD00EF3F29 /* HYStockChart */ = {
+			isa = PBXGroup;
+			children = (
+				1DF07B131EC1B00000EF3F29 /* UIFont+HYStockChart.h */,
+				1DF07B141EC1B00000EF3F29 /* UIFont+HYStockChart.m */,
+				1DF07B071EC1AAF100EF3F29 /* YYTimeLineMaskView.h */,
+				1DF07B081EC1AAF100EF3F29 /* YYTimeLineMaskView.m */,
+				1DF07B041EC1AACF00EF3F29 /* UIView+HXCircleAnimation.h */,
+				1DF07B051EC1AACF00EF3F29 /* UIView+HXCircleAnimation.m */,
+				1DF07B011EC1AAAB00EF3F29 /* NSDateFormatter+HYStockChart.h */,
+				1DF07B021EC1AAAB00EF3F29 /* NSDateFormatter+HYStockChart.m */,
+				1DF07AFE1EC1AA4000EF3F29 /* UIColor+HYStockChart.h */,
+				1DF07AFF1EC1AA4000EF3F29 /* UIColor+HYStockChart.m */,
+				1DF07AFB1EC1A9FD00EF3F29 /* HYTimeLine.h */,
+				1DF07AFC1EC1A9FD00EF3F29 /* HYTimeLine.m */,
+				1DF07AF51EC1A9A700EF3F29 /* HYTimeLineAbovePositionModel.h */,
+				1DF07AF61EC1A9A700EF3F29 /* HYTimeLineAbovePositionModel.m */,
+				1DF07AEF1EC1A8D600EF3F29 /* HYTimeLineAboveView.h */,
+				1DF07AF01EC1A8D600EF3F29 /* HYTimeLineAboveView.m */,
+				1DF07AC51EC1A56200EF3F29 /* HYTimeLineView.h */,
+				1DF07AC61EC1A56200EF3F29 /* HYTimeLineView.m */,
+				1DF07AC21EC1A3F000EF3F29 /* HYTimeLineGroupModel.h */,
+				1DF07AC31EC1A3F000EF3F29 /* HYTimeLineGroupModel.m */,
+				1DF07ABF1EC1A37700EF3F29 /* HYTimeLineModel.h */,
+				1DF07AC01EC1A37700EF3F29 /* HYTimeLineModel.m */,
+				1DF07AA21EC19FE000EF3F29 /* JMSTimeLineModel.h */,
+				1DF07AA31EC19FE000EF3F29 /* JMSTimeLineModel.m */,
+				1DF07A9F1EC19F9500EF3F29 /* JMSGroupTimeLineModel.h */,
+				1DF07AA01EC19F9500EF3F29 /* JMSGroupTimeLineModel.m */,
+				1DF07A9A1EC19D1C00EF3F29 /* HYStockChartGloablVariable.h */,
+				1DF07A9B1EC19D1C00EF3F29 /* HYStockChartGloablVariable.m */,
+				1DF07A971EC19CDA00EF3F29 /* HYStockChartProfileModel.h */,
+				1DF07A981EC19CDA00EF3F29 /* HYStockChartProfileModel.m */,
+				1DF07A911EC19A8100EF3F29 /* HYStockChartConstant.h */,
+				1DF07A921EC19A8100EF3F29 /* HYStockChartConstant.m */,
+				1DF07A8E1EC19A1500EF3F29 /* HYStockChartView.h */,
+				1DF07A8F1EC19A1500EF3F29 /* HYStockChartView.m */,
+			);
+			name = HYStockChart;
+			sourceTree = "<group>";
+		};
+		1DF07AA51EC1A23700EF3F29 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1DF07AA61EC1A24900EF3F29 /* MJConst.h */,
+				1DF07AA71EC1A24900EF3F29 /* MJConst.m */,
+				1DF07AA81EC1A24900EF3F29 /* MJExtension.h */,
+				1DF07AA91EC1A24900EF3F29 /* MJFoundation.h */,
+				1DF07AAA1EC1A24900EF3F29 /* MJFoundation.m */,
+				1DF07AAB1EC1A24900EF3F29 /* MJProperty.h */,
+				1DF07AAC1EC1A24900EF3F29 /* MJProperty.m */,
+				1DF07AAD1EC1A24900EF3F29 /* MJType.h */,
+				1DF07AAE1EC1A24900EF3F29 /* MJType.m */,
+				1DF07AAF1EC1A24900EF3F29 /* NSObject+MJCoding.h */,
+				1DF07AB01EC1A24900EF3F29 /* NSObject+MJCoding.m */,
+				1DF07AB11EC1A24900EF3F29 /* NSObject+MJKeyValue.h */,
+				1DF07AB21EC1A24900EF3F29 /* NSObject+MJKeyValue.m */,
+				1DF07AB31EC1A24900EF3F29 /* NSObject+MJProperty.h */,
+				1DF07AB41EC1A24900EF3F29 /* NSObject+MJProperty.m */,
+				1DF07AB51EC1A24900EF3F29 /* NSString+MJExtension.h */,
+				1DF07AB61EC1A24900EF3F29 /* NSString+MJExtension.m */,
+			);
+			name = MJExtension;
+			sourceTree = "<group>";
+		};
+		1DF07AC81EC1A68400EF3F29 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				1DF07AC91EC1A69500EF3F29 /* MASCompositeConstraint.h */,
+				1DF07ACA1EC1A69500EF3F29 /* MASCompositeConstraint.m */,
+				1DF07ACB1EC1A69500EF3F29 /* MASConstraint.h */,
+				1DF07ACC1EC1A69500EF3F29 /* MASConstraint.m */,
+				1DF07ACD1EC1A69500EF3F29 /* MASConstraint+Private.h */,
+				1DF07ACE1EC1A69500EF3F29 /* MASConstraintMaker.h */,
+				1DF07ACF1EC1A69500EF3F29 /* MASConstraintMaker.m */,
+				1DF07AD01EC1A69500EF3F29 /* MASLayoutConstraint.h */,
+				1DF07AD11EC1A69500EF3F29 /* MASLayoutConstraint.m */,
+				1DF07AD21EC1A69500EF3F29 /* Masonry.h */,
+				1DF07AD31EC1A69500EF3F29 /* MASUtilities.h */,
+				1DF07AD41EC1A69500EF3F29 /* MASViewAttribute.h */,
+				1DF07AD51EC1A69500EF3F29 /* MASViewAttribute.m */,
+				1DF07AD61EC1A69500EF3F29 /* MASViewConstraint.h */,
+				1DF07AD71EC1A69500EF3F29 /* MASViewConstraint.m */,
+				1DF07AD81EC1A69500EF3F29 /* NSArray+MASAdditions.h */,
+				1DF07AD91EC1A69500EF3F29 /* NSArray+MASAdditions.m */,
+				1DF07ADA1EC1A69500EF3F29 /* NSArray+MASShorthandAdditions.h */,
+				1DF07ADB1EC1A69500EF3F29 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				1DF07ADC1EC1A69500EF3F29 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				1DF07ADD1EC1A69500EF3F29 /* View+MASAdditions.h */,
+				1DF07ADE1EC1A69500EF3F29 /* View+MASAdditions.m */,
+				1DF07ADF1EC1A69500EF3F29 /* View+MASShorthandAdditions.h */,
+				1DF07AE01EC1A69500EF3F29 /* ViewController+MASAdditions.h */,
+				1DF07AE11EC1A69500EF3F29 /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +364,7 @@
 				1DF07A831EC1989500EF3F29 /* LaunchScreen.storyboard in Resources */,
 				1DF07A801EC1989500EF3F29 /* Assets.xcassets in Resources */,
 				1DF07A7E1EC1989500EF3F29 /* Main.storyboard in Resources */,
+				1DF07A9E1EC19F3F00EF3F29 /* TimeLine.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +375,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF07AE81EC1A69500EF3F29 /* NSArray+MASAdditions.m in Sources */,
+				1DF07A901EC19A1500EF3F29 /* HYStockChartView.m in Sources */,
+				1DF07AC11EC1A37700EF3F29 /* HYTimeLineModel.m in Sources */,
+				1DF07AE91EC1A69500EF3F29 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				1DF07ABD1EC1A24900EF3F29 /* NSObject+MJProperty.m in Sources */,
+				1DF07AFD1EC1A9FD00EF3F29 /* HYTimeLine.m in Sources */,
+				1DF07ABA1EC1A24900EF3F29 /* MJType.m in Sources */,
 				1DF07A7B1EC1989500EF3F29 /* ViewController.m in Sources */,
+				1DF07AE41EC1A69500EF3F29 /* MASConstraintMaker.m in Sources */,
+				1DF07AEA1EC1A69500EF3F29 /* View+MASAdditions.m in Sources */,
+				1DF07AF91EC1A9A700EF3F29 /* HYTimeLineAbovePositionModel.m in Sources */,
+				1DF07ABE1EC1A24900EF3F29 /* NSString+MJExtension.m in Sources */,
+				1DF07AE31EC1A69500EF3F29 /* MASConstraint.m in Sources */,
+				1DF07A961EC19B1F00EF3F29 /* timelineViewController.m in Sources */,
+				1DF07AE71EC1A69500EF3F29 /* MASViewConstraint.m in Sources */,
+				1DF07A9C1EC19D1C00EF3F29 /* HYStockChartGloablVariable.m in Sources */,
 				1DF07A781EC1989500EF3F29 /* AppDelegate.m in Sources */,
+				1DF07B061EC1AACF00EF3F29 /* UIView+HXCircleAnimation.m in Sources */,
+				1DF07B091EC1AAF100EF3F29 /* YYTimeLineMaskView.m in Sources */,
+				1DF07ABC1EC1A24900EF3F29 /* NSObject+MJKeyValue.m in Sources */,
+				1DF07AC71EC1A56200EF3F29 /* HYTimeLineView.m in Sources */,
+				1DF07AC41EC1A3F000EF3F29 /* HYTimeLineGroupModel.m in Sources */,
+				1DF07A931EC19A8100EF3F29 /* HYStockChartConstant.m in Sources */,
+				1DF07AB81EC1A24900EF3F29 /* MJFoundation.m in Sources */,
+				1DF07AEB1EC1A69500EF3F29 /* ViewController+MASAdditions.m in Sources */,
+				1DF07AA11EC19F9500EF3F29 /* JMSGroupTimeLineModel.m in Sources */,
+				1DF07AF11EC1A8D600EF3F29 /* HYTimeLineAboveView.m in Sources */,
+				1DF07B151EC1B00000EF3F29 /* UIFont+HYStockChart.m in Sources */,
+				1DF07B031EC1AAAB00EF3F29 /* NSDateFormatter+HYStockChart.m in Sources */,
+				1DF07AE51EC1A69500EF3F29 /* MASLayoutConstraint.m in Sources */,
+				1DF07AB91EC1A24900EF3F29 /* MJProperty.m in Sources */,
+				1DF07AE21EC1A69500EF3F29 /* MASCompositeConstraint.m in Sources */,
+				1DF07AA41EC19FE000EF3F29 /* JMSTimeLineModel.m in Sources */,
+				1DF07B001EC1AA4000EF3F29 /* UIColor+HYStockChart.m in Sources */,
+				1DF07ABB1EC1A24900EF3F29 /* NSObject+MJCoding.m in Sources */,
+				1DF07A991EC19CDA00EF3F29 /* HYStockChartProfileModel.m in Sources */,
+				1DF07AB71EC1A24900EF3F29 /* MJConst.m in Sources */,
 				1DF07A751EC1989500EF3F29 /* main.m in Sources */,
+				1DF07AE61EC1A69500EF3F29 /* MASViewAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +572,7 @@
 				1DF07A891EC1989500EF3F29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
